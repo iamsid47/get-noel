@@ -1,12 +1,14 @@
 import React from "react";
 import Navbar from "../Navbar";
-import Section2 from "./Section2";
+import Hero from "./Hero";
+import Featured from "./Featured";
 
 const HomePage = () => {
   return (
     <section>
       <Navbar />
-      <Section2 />
+      <Hero />
+      <Featured />
     </section>
   );
 };

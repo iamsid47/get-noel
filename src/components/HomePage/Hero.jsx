@@ -1,12 +1,9 @@
 import React from "react";
-import BGImage from "../assets/bg-cover.jpg";
+import downSVG from "../assets/down.svg";
 
-const Section2 = () => {
+const Hero = () => {
   return (
-    <section
-      className="bg-cover bg-center overflow-hidden "
-      style={{ backgroundImage: `url(${BGImage})` }}
-    >
+    <section className="bg-gradient-to-tr from-rose-100 via-fuchsia-100 to-indigo-200 overflow-hidden ">
       <div className="px-6 lg:px-8 backdrop-blur-3xl">
         <div className="mx-auto max-w-7xl py-48">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
@@ -30,7 +27,7 @@ const Section2 = () => {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="/"
-                className="rounded-md bg-gray-800 px-3.5 py-2.5 text-sm  text-white shadow-sm hover:shadow-xl hover:bg-transparent hover:text-gray-800 transition duration-200 "
+                className="rounded-md bg-gray-800 px-3.5 py-2.5 text-sm  text-white shadow-sm hover:shadow-xl hover:bg-white hover:text-gray-800 transition duration-200 "
               >
                 Get started
               </a>
@@ -44,8 +41,11 @@ const Section2 = () => {
           </div>
         </div>
       </div>
+      <div className="flex justify-center mb-12">
+        <img src={downSVG} alt="" className="w-5" />
+      </div>
     </section>
   );
 };
 
-export default Section2;
+export default Hero;
