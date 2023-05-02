@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../Navbar";
 import Hero from "./Hero";
 import Featured from "./Featured";
+import Stats from "./Stats";
 
 const HomePage = () => {
   return (
@@ -9,6 +10,7 @@ const HomePage = () => {
       <Navbar />
       <Hero />
       <Featured />
+      <Stats />
     </section>
   );
 };
