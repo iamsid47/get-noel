@@ -24,7 +24,7 @@ const Featured = () => {
             </p>
             <a
               href="/"
-              className="rounded-md bg-gray-800 px-3.5 py-3.5 text-sm  text-white shadow-sm hover:shadow-xl hover:bg-white hover:text-gray-800 transition duration-200 "
+              className="rounded-md hover:bg-gray-800 px-3.5 py-2.5 text-sm  hover:text-white shadow-sm hover:shadow-xl bg-blue-700 text-white transition duration-200 "
             >
               Get started
             </a>

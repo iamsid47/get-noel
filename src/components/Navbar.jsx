@@ -13,7 +13,7 @@ const Navbar = () => {
           <div class="flex md:order-2">
             <button
               type="button"
-              class="text-black bg-white hover:bg-gray-800 transition duration-200 hover:text-white rounded-lg text-sm px-3 py-1 text-center mr-3 md:mr-0 "
+              class="inline-flex items-center justify-center px-3 text-sm py-1 text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 transition duration-300"
             >
               Get started
             </button>

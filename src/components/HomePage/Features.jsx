@@ -3,7 +3,7 @@ import Astronaut from "../assets/astronaut.png";
 
 const Features = () => {
   return (
-    <section className="pb-12 mb-12">
+    <section className="my-12">
       <h1 className="text-center mt-24 mb-12 text-6xl tracking-tighter">
         Features You'd Miss Elsewhere
       </h1>
