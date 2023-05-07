@@ -64,7 +64,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="/pricing"
                   class="block py-2 pl-3 pr-4 text-white rounded font-light hover:bg-gray-100 text-sm md:hover:bg-transparent md:hover:text-gray-400 md:p-0 "
                 >
                   Pricing
@@ -72,7 +72,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="mailto:sid@kulthe.com"
                   class="block py-2 pl-3 pr-4 text-white rounded font-light hover:bg-gray-100 text-sm md:hover:bg-transparent md:hover:text-gray-400 md:p-0 "
                 >
                   Help

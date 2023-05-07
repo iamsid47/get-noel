@@ -14,9 +14,9 @@ const HomePage = () => {
       <Hero />
       <Stats />
       <Featured />
-
       <Features />
       <More />
+
       <Footer />
     </section>
   );

@@ -7,11 +7,11 @@ const Hero = () => {
       <div className="px-6 lg:px-8 backdrop-blur-3xl">
         <div className="mx-auto max-w-7xl py-48">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-            <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-              We're using Machine Learning to solve Customer Relation Problems.{" "}
-              <a href="/" className=" text-blue-600">
+            <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-blue-700 ring-1 ring-blue-700 hover:ring-gray-900/20 transition duration-200">
+              Check out Noel In Action{" "}
+              <a href="/" className=" text-blue-700">
                 <span className="absolute inset-0" aria-hidden="true" />
-                Read more <span aria-hidden="true">&rarr;</span>
+                <span aria-hidden="true">&rarr;</span>
               </a>
             </div>
           </div>
@@ -32,10 +32,10 @@ const Hero = () => {
                 Get started
               </a>
               <a
-                href="/"
+                href="mailto:sid@kulthe.com"
                 className="text-sm  leading-6 text-gray-900 hover:underline underline-offset-8"
               >
-                Learn more <span aria-hidden="true">→</span>
+                Reach Out <span aria-hidden="true">→</span>
               </a>
             </div>
           </div>

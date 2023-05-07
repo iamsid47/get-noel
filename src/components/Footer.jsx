@@ -5,22 +5,24 @@ const Footer = () => {
     <section>
       <section class="bg-gray-900">
         <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-          <div class="max-w-screen-md">
+          <div class="max-w-screen-sm">
             <h2 class="mb-4 text-4xl tracking-tight  text-white">
-              Let's find more that brings us together.
+              Our Commitment Towards You.
             </h2>
             <p class="mb-8 font-light text-gray-500 sm:text-xl dark:text-gray-400">
-              Flowbite helps you connect with friends, family and communities of
-              people who share your interests. Connecting with your friends and
-              family as well as discovering new ones is easy with features like
-              Groups, Watch and Marketplace.
+              We wanted to make the right pricing model, keep things simple,
+              clean, and transparent to our customers. Thus, we charge{" "}
+              <span className="font-bold">ZERO FEES</span> for setting up your
+              account, no service fees, no hidden costs, no upsells, no
+              downsells, or any fake promises. Just one price that pays for
+              everything. Inclusive of taxes.
             </p>
             <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
               <a
                 href="/"
                 class="inline-flex items-center justify-center px-3 text-sm py-1  text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 transition duration-300"
               >
-                Get started
+                Try Noel For Free
               </a>
             </div>
           </div>
