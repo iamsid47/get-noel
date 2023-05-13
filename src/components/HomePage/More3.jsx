@@ -1,6 +1,6 @@
 import React from "react";
 
-const More = () => {
+const More3 = () => {
   return (
     <section>
       <section class="bg-white">
@@ -38,4 +38,4 @@ const More = () => {
   );
 };
 
-export default More;
+export default More3;

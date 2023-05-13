@@ -11,12 +11,12 @@ const Navbar = () => {
             </span>
           </a>
           <div class="flex md:order-2">
-            <button
-              type="button"
+            <a
+              href="/get-started"
               class="inline-flex items-center justify-center px-3 text-sm py-1 text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 transition duration-300"
             >
               Get started
-            </button>
+            </a>
             <button
               data-collapse-toggle="navbar-cta"
               type="button"
@@ -47,19 +47,11 @@ const Navbar = () => {
             <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border  rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
               <li>
                 <a
-                  href="/"
+                  href="/action"
                   class="block py-2 pl-3 pr-4 text-white rounded font-light hover:bg-gray-100 text-sm md:hover:bg-transparent md:hover:text-gray-400 md:p-0"
                   aria-current="page"
                 >
                   In Action
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/"
-                  class="block py-2 pl-3 pr-4 text-white rounded font-light hover:bg-gray-100 text-sm md:hover:bg-transparent md:hover:text-gray-400 md:p-0"
-                >
-                  Product
                 </a>
               </li>
               <li>

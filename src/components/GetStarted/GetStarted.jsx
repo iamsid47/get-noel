@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
+import NextSteps from "./NextSteps";
 
 const GetStarted = () => {
   return (
@@ -36,26 +37,29 @@ const GetStarted = () => {
                             name="full_name"
                             id="full_name"
                             class="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
+                            placeholder="Jon Doe"
                           />
                         </div>
                         <div class="md:col-span-5">
-                          <label for="full_name">Company</label>
+                          <label for="company">Company</label>
                           <input
                             required
                             type="text"
-                            name="full_name"
-                            id="full_name"
+                            name="company"
+                            id="company"
                             class="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
+                            placeholder="Sample, Inc."
                           />
                         </div>
                         <div class="md:col-span-5">
-                          <label for="full_name">Website</label>
+                          <label for="website">Website</label>
                           <input
                             required
                             type="text"
-                            name="full_name"
-                            id="full_name"
+                            name="url"
+                            id="url"
                             class="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
+                            placeholder="www.sample.com"
                           />
                         </div>
 
@@ -70,9 +74,20 @@ const GetStarted = () => {
                             placeholder="email@domain.com"
                           />
                         </div>
+                        <div class="md:col-span-5">
+                          <label for="phone">Phone</label>
+                          <input
+                            required
+                            type="tel"
+                            name="phone"
+                            id="phone"
+                            class="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
+                            placeholder="+1 698 759 2108"
+                          />
+                        </div>
 
                         <div class="md:col-span-3">
-                          <label for="address">Address / Street</label>
+                          <label for="address">Business Address / Street</label>
                           <input
                             required
                             type="text"
@@ -152,6 +167,7 @@ const GetStarted = () => {
           </div>
         </div>
       </section>
+      <NextSteps />
       <Footer />
     </section>
   );

@@ -5,10 +5,11 @@ const Features = () => {
     <section className="my-12" id="features">
       <h1 className="text-7xl text-center tracking-tighter my-4">
         Save{" "}
-        <span className="font-bold text-8xl bg-gradient-to-r from-fuchsia-600 to-pink-600 text-transparent bg-clip-text">
+        <span className="font-bold text-8xl text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900">
           99%
         </span>{" "}
-        On Hiring Costs
+        On Hiring Costs{" "}
+        <span className="text-sm font-bold tracking-normal">(Literally)</span>
       </h1>
 
       <div className="flex justify-center items-center space-x-12">
@@ -54,9 +55,9 @@ const Features = () => {
                 </tr>
                 <tr>
                   <td class="text-left text-xl font-light py-2">
-                    Average Salary of a Sales Rep
+                    Avg Salary of a Support Rep
                   </td>
-                  <td class="text-right text-2xl font-medium py-2">$68,880</td>
+                  <td class="text-right text-2xl font-medium py-2">$32,175</td>
                 </tr>
                 <tr>
                   <td class="text-left text-xl font-light py-2">Taxes</td>
@@ -65,13 +66,13 @@ const Features = () => {
                 <hr class="h-px my-1.5 bg-gray-200 border-0"></hr>
                 <tr>
                   <td class="text-left text-xl font-bold py-4">Total Cost</td>
-                  <td class="text-right text-2xl font-bold py-4">~$80,350</td>
+                  <td class="text-right text-2xl font-bold py-4">~$40,830</td>
                 </tr>
               </tbody>
             </table>
           </div>
         </div>
-        <div class="flex bg-blue-700 shadow-lg rounded-xl text-white mx-4 ">
+        <div class="flex bg-gradient-to-tr from-blue-700 via-blue-800 to-blue-900 shadow-lg rounded-xl text-white mx-4 ">
           <div class="px-8 py-32 flex flex-col items-center">
             <h1 className="text-5xl font-light my-2">Cost of Noel</h1>
             <h2 className="text-6xl">
@@ -83,7 +84,7 @@ const Features = () => {
               <span className="font-bold">$759</span> per year
             </h2>
             <a
-              href="/"
+              href="/get-started"
               class="my-2 rounded-lg bg-gray-800 px-3.5 py-2.5 text-sm  hover:text-black shadow-sm hover:shadow-xl hover:bg-white text-white transition duration-200 "
             >
               Get started

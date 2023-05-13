@@ -9,7 +9,7 @@ const Hero = () => {
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-blue-700 ring-1 ring-blue-700 hover:ring-gray-900/20 transition duration-200">
               Check out Noel In Action{" "}
-              <a href="/" className=" text-blue-700">
+              <a href="/action" className=" text-blue-700">
                 <span className="absolute inset-0" aria-hidden="true" />
                 <span aria-hidden="true">&rarr;</span>
               </a>
@@ -20,13 +20,11 @@ const Hero = () => {
               Support, Automated.
             </h1>
             <p className="mt-6 text-lg text-gray-600 tracking-tight leading-tight max-w-2xl">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-              lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-              fugiat aliqua.
+              Noel is your AI-powered support rep that works 24/7!
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
-                href="/"
+                href="/get-started"
                 className="rounded-md hover:bg-gray-800 px-3.5 py-2.5 text-sm  hover:text-white shadow-sm hover:shadow-xl bg-blue-700 text-white transition duration-200"
               >
                 Get started
