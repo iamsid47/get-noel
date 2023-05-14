@@ -6,7 +6,7 @@ const Features = () => {
       <h1 className="text-7xl text-center tracking-tighter my-4">
         Save{" "}
         <span className="font-bold text-8xl text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900">
-          99%
+          97%
         </span>{" "}
         On Hiring Costs{" "}
         <span className="text-sm font-bold tracking-normal">(Literally)</span>

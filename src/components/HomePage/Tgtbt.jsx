@@ -31,8 +31,9 @@ const Tgtbt = () => {
             Sounds Too Good To Be True?
           </h1>
           <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">
-            Here at Flowbite we focus on markets where technology, innovation,
-            and capital can unlock long-term value and drive economic growth.
+            Even though we're charging a fraction of the cost, we believe that
+            Noel will never let you down. With an advanced neural network at
+            it's heart, it has every chance that it will NOT screw up!
           </p>
           <div class="flex flex-col mb-8 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
             <a

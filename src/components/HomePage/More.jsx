@@ -1,15 +1,12 @@
 import React from "react";
+import Working from "../assets/Customer's Queries.png";
 
 const More = () => {
   return (
     <section>
       <section class="bg-white">
-        <div class="gap-8 items-center pt-4 my-24 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 lg:px-6">
-          <img
-            class="w-full"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg"
-            alt="dashboard"
-          />
+        <div class="gap-8 items-center pt-4 my-24 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 lg:px-6 ">
+          <img class="w-full" src={Working} alt="working" />
           <div class="mt-4 md:mt-0">
             <div className="mb-4 flex justify-end">
               <div className="rotate-3 relative rounded-full px-3 py-1 shadow-lg text-sm leading-6 text-blue-500 ring-1 ring-blue-500 hover:ring-blue-800">

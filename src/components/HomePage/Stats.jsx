@@ -3,7 +3,7 @@ import React from "react";
 const Stats = () => {
   return (
     <section className="my-12">
-      <div className="mx-16 my-8 bg-indigo-600 rounded-2xl shadow-2xl text-white flex justify-around">
+      <div className="mx-16 my-8 bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900 rounded-2xl shadow-2xl text-white flex justify-around">
         <div className="mx-4 px-4 my-4 py-4">
           <h1 className="text-7xl tracking-tighter max-w-lg">
             Numbers you'd love to know

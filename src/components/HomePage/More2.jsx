@@ -1,4 +1,5 @@
 import React from "react";
+import MoreImg from "../assets/More.png";
 
 const More2 = () => {
   return (
@@ -29,11 +30,7 @@ const More2 = () => {
               Get started
             </a>
           </div>
-          <img
-            class="w-full"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg"
-            alt="dashboard"
-          />
+          <img class="w-full" src={MoreImg} alt="more money" />
         </div>
       </section>
     </section>

@@ -4,10 +4,14 @@ import Footer from "../Footer";
 import { CheckIcon } from "@heroicons/react/20/solid";
 
 const includedFeatures = [
-  "Private forum access",
-  "Member resources",
-  "Entry to annual conference",
-  "Official member t-shirt",
+  "Unmetered Chat Sessions",
+  "Unlimited Chat Logs",
+  "Noel Improves Itself",
+  "Customer Engagement Tracking",
+  "99.9% Uptime",
+  "Noel Chat Widget",
+  "Weekly Reports",
+  "No-cost Setup",
 ];
 
 const Pricing = () => {
@@ -21,9 +25,9 @@ const Pricing = () => {
               Simple no-tricks pricing
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Distinctio et nulla eum soluta et neque labore quibusdam. Saepe et
-              quasi iusto modi velit ut non voluptas in. Explicabo id ut
-              laborum.
+              Our pricing is based on the value of our products and services,
+              not on gimmicks or tricks. We believe that you should be able to
+              get the best possible value without having to play games.
             </p>
           </div>
           <div className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none shadow-xl">
@@ -32,9 +36,7 @@ const Pricing = () => {
                 Monthly Pricing
               </h3>
               <p className="mt-6 text-base leading-7 text-gray-600">
-                Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque
-                amet indis perferendis blanditiis repellendus etur quidem
-                assumenda.
+                Our monthly plan gives you 30 days of unlimited access to Noel.
               </p>
               <div className="mt-10 flex items-center gap-x-4">
                 <h4 className="flex-none text-sm font-semibold leading-6 text-blue-600">
@@ -42,7 +44,7 @@ const Pricing = () => {
                 </h4>
                 <div className="h-px flex-auto bg-gray-100" />
               </div>
-              <ul className="mt-8 grid grid-cols-1 gap-4 text-sm leading-6 text-gray-600 sm:grid-cols-2 sm:gap-6">
+              <ul className="mt-8 grid gap-4 text-sm leading-6 text-gray-600 grid-cols-2">
                 {includedFeatures.map((feature) => (
                   <li key={feature} className="flex gap-x-3">
                     <CheckIcon
@@ -99,7 +101,7 @@ const Pricing = () => {
                     <span className="line-through">$1200</span>{" "}
                     <span className="font-bold text-lg">$759</span>,{" "}
                     <a
-                      href="/"
+                      href="mailto:sid@kulthe.com"
                       className="hover:underline underline-offset-8 text-blue-700"
                     >
                       contact sales
