@@ -40,10 +40,6 @@ Add Noel to your website or app
 Use Noel in a chatbot
 Use Noel in a voice assistant
 
-# License
-
-Noel is licensed under the MIT License.
-
 # Contact
 
 If you have any questions or feedback, please contact me on Twitter - @9to5ML
