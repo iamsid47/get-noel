@@ -10,7 +10,7 @@ function ChatInterface() {
     e.preventDefault();
 
     // Make a POST request to the Flask app
-    const response = await fetch("http://34.207.83.162:4500/chat", {
+    const response = await fetch("http://trynoel.kulthe.com:4500/chat", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
