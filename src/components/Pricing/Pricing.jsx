@@ -87,7 +87,7 @@ const Pricing = () => {
                     </span>
                   </p>
                   <a
-                    href="/"
+                    href="/get-started"
                     className="rounded-lg hover:bg-gray-800 px-2.5 py-1.5 text-sm  hover:text-white shadow-sm hover:shadow-xl bg-blue-700  transition duration-200 mt-10 block  text-center  font-semibold text-white"
                   >
                     Try Free For 30 Days
