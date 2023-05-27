@@ -73,7 +73,7 @@ function ChatInterface() {
                 <h1
                   className={`px-3 py-1.5 rounded ${
                     message.sender === "User"
-                      ? "bg-blue-500 text-white"
+                      ? "bg-blue-700 text-white"
                       : "bg-white"
                   }`}
                 >
@@ -82,7 +82,7 @@ function ChatInterface() {
                 <h1
                   className={` rounded-xl py-1.5 px-3 ${
                     message.sender === "User"
-                      ? "text-right bg-blue-500 text-white"
+                      ? "text-right bg-blue-700 text-white"
                       : "text-left bg-white"
                   }`}
                 >
