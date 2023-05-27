@@ -5,7 +5,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-openai.api_key = "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"
+openai.api_key = "API_KEY_HERE"
 
 
 @app.route("/chat", methods=["POST"])
