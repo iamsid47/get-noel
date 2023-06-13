@@ -80,7 +80,7 @@ const Pricing = () => {
                   </div>
                   <p className="mt-6 flex items-baseline justify-center gap-x-2">
                     <span className="text-5xl font-bold tracking-tight text-gray-900">
-                      $100
+                      $49
                     </span>
                     <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">
                       USD
@@ -98,8 +98,8 @@ const Pricing = () => {
 
                   <p className="mt-6 text-sm leading-5 text-gray-600 font-medium">
                     For a yearly pricing of{" "}
-                    <span className="line-through">$1200</span>{" "}
-                    <span className="font-bold text-lg">$759</span>,{" "}
+                    <span className="line-through">$588</span>{" "}
+                    <span className="font-bold text-lg">$529</span>,{" "}
                     <a
                       href="mailto:sid@kulthe.com"
                       className="hover:underline underline-offset-8 text-blue-700"
