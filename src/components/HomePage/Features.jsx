@@ -3,7 +3,7 @@ import React from "react";
 const Features = () => {
   return (
     <section className="my-12" id="features">
-      <h1 className="text-7xl text-center tracking-tighter my-4">
+      <h1 className="text-7xl text-center tracking-tight my-4">
         Save{" "}
         <span className="font-bold text-8xl text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900">
           97%
@@ -72,21 +72,18 @@ const Features = () => {
             </table>
           </div>
         </div>
-        <div class="flex bg-gradient-to-tr from-blue-700 via-blue-800 to-blue-900 shadow-lg rounded-xl text-white mx-4 ">
-          <div class="px-8 py-32 flex flex-col items-center">
-            <h1 className="text-5xl font-light my-2">Cost of Noel</h1>
+        <div class="flex flex-col items-center bg-gradient-to-tr from-blue-700 via-blue-800 to-blue-900 shadow-lg rounded-xl text-white mx-4 ">
+          <div class="px-8 py-28 flex flex-col items-center">
+            <h1 className="text-5xl  my-2">Cost of Noel</h1>
             <h2 className="text-6xl">
-              <span className="text-7xl font-bold tracking-tighter">$100</span>{" "}
-              per month
+              <span className="text-7xl font-bold tracking-tight">$49</span> per
+              month
             </h2>
             <h2 className="text-lg my-4">
-              or <span className="line-through">$1200</span>{" "}
-              <span className="font-bold">$759</span> per year
+              or <span className="line-through">$588</span>{" "}
+              <span className="font-bold">$529</span> per year
             </h2>
-            <a
-              href="/get-started"
-              class="my-2 rounded-lg bg-gray-800 px-3.5 py-2.5 text-sm  hover:text-black shadow-sm hover:shadow-xl hover:bg-white text-white transition duration-200 "
-            >
+            <a href="/get-started" class="my-2 buttoncl">
               Get started
             </a>
             <h2 className="text-lg my-4">No hidden fees what-so-ever.</h2>

@@ -50,50 +50,51 @@ function ChatInterface() {
       <section className="grid grid-cols-2 min-h-screen">
         <div className="bg-gray-900 flex items-center justify-end">
           <div>
-            <h1 className="text-9xl text-white text-right p-6 tracking-tighter">
+            <h1 className="text-9xl text-white text-right p-6 tracking-tight">
               That's Noel In Action
             </h1>
           </div>
         </div>
-        <div className="m-6 rounded-xl space-y-2 flex flex-col p-4 bg-gray-200 justify-around overflow-y-scroll overflow-x-hidden max-h-screen">
+        <div className="m-6 rounded-xl space-y-2 flex flex-col p-4 bg-gray-200 justify-around  h-[640px]">
           <div className="bg-white px-3 py-1.5 rounded-xl text-center">
             <h1 className="text-sm text-gray-600">
               I'm Noel. Currently serving on behalf of Kulthe Media. At your
               service!
             </h1>
           </div>
-          <div className="space-y-2 max-w-xl grid grid-cols-1 justify-center p-4 my-3">
-            {messages.map((message, index) => (
-              <div
-                key={index}
-                className={`flex justify-between space-x-2 ${
-                  message.sender === "User" ? "text-right" : "text-left"
-                }`}
-              >
-                <h1
-                  className={`px-3 py-1.5 rounded ${
-                    message.sender === "User"
-                      ? "bg-blue-700 text-white"
-                      : "bg-white"
+          <div className="overflow-y-scroll overflow-x-hidden h-[480px]">
+            <div className="space-y-2 max-w-xl grid grid-cols-1 justify-center p-4 my-3">
+              {messages.map((message, index) => (
+                <div
+                  key={index}
+                  className={`flex justify-between space-x-2 ${
+                    message.sender === "User" ? "text-right" : "text-left"
                   }`}
                 >
-                  {message.sender}
-                </h1>
-                <h1
-                  className={` rounded-xl py-1.5 px-3 ${
-                    message.sender === "User"
-                      ? "text-right bg-blue-700 text-white"
-                      : "text-left bg-white"
-                  }`}
-                >
-                  {message.content}
-                </h1>
-              </div>
-            ))}
+                  <h1
+                    className={`px-3 py-1.5 rounded my-1 ${
+                      message.sender === "User"
+                        ? "bg-blue-700 text-white"
+                        : "bg-white"
+                    }`}
+                  >
+                    {message.sender}
+                  </h1>
+                  <h1
+                    className={` rounded-xl py-1.5 px-3 my-1 ${
+                      message.sender === "User"
+                        ? "text-right bg-blue-700 text-white"
+                        : "text-left bg-white"
+                    }`}
+                  >
+                    {message.content}
+                  </h1>
+                </div>
+              ))}
+            </div>
           </div>
-
           <form
-            className="flex justify-center space-x-2 sticky bottom-0"
+            className="flex justify-center space-x-2 sticky bottom-0 pt-1"
             onSubmit={handleSubmit}
           >
             <input

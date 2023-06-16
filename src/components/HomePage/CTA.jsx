@@ -6,7 +6,7 @@ const CTA = () => {
       <section class="bg-white ">
         <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
           <div class="mx-auto text-center">
-            <h2 class="mb-4 text-6xl tracking-tight font-extrabold  text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900">
+            <h2 class="mb-4 text-6xl tracking-tight font-extrabold py-1 text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900">
               Why wait when it's here for you!
             </h2>
             <p class="mb-6 font-light text-gray-500  md:text-lg">

@@ -12,7 +12,7 @@ const Featured = () => {
             </div>
           </div>
           <div>
-            <h1 className="max-w-3xl text-7xl font-bold tracking-tighter">
+            <h1 className="max-w-3xl text-7xl font-bold tracking-tight">
               A support rep that your customers can rely on!
             </h1>
             <p className="py-2 mt-3 mb-6 max-w-xl">

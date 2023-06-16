@@ -13,7 +13,7 @@ const More = () => {
                 Fact: Noel Never Takes A Day Off ✨
               </div>
             </div>
-            <h2 class="mb-4 text-6xl tracking-tighter font-bold text-gray-900 ">
+            <h2 class="mb-4 text-6xl tracking-tight font-bold text-gray-900 ">
               Perfect to it's core
             </h2>
             <p class="mb-6 font-light text-gray-500 md:text-lg ">

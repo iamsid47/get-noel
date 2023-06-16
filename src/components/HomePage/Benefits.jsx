@@ -43,10 +43,10 @@ const Benefits = () => {
             <h2 className="text-base font-semibold leading-7 text-blue-700 uppercase">
               Benefits
             </h2>
-            <p className="mt-2 text-5xl font-bold tracking-tight text-gray-900">
-              Everything you need to create a{" "}
+            <p className="mt-2 lg:text-6xl text-5xl font-bold tracking-tight text-gray-900">
+              Create a{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900">
-                seamless support experience
+                seamless support experience.
               </span>
             </p>
             <p className="mt-6 text-md text-gray-600 max-w-lg">

@@ -1,4 +1,3 @@
-import "./App.css";
 import HomePage from "./components/HomePage/Home";
 import Pricing from "./components/Pricing/Pricing";
 import GetStarted from "./components/GetStarted/GetStarted";
