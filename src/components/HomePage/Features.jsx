@@ -3,12 +3,12 @@ import React from "react";
 const Features = () => {
   return (
     <section className="my-12" id="features">
-      <h1 className="text-7xl text-center tracking-tight my-4">
+      <h1 className="text-7xl text-center tracking-tight my-4 font-semibold">
         Save{" "}
         <span className="font-bold text-8xl text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900">
           97%
         </span>{" "}
-        On Hiring Costs{" "}
+        On Support Costs{" "}
         <span className="text-sm font-bold tracking-normal">(Literally)</span>
       </h1>
 

@@ -11,18 +11,18 @@ const Stats = () => {
         </div>
         <div className="flex items-center space-x-12 -mt-2">
           <div className="mx-2 my-6 flex flex-col items-center">
-            <h1 className="text-7xl font-bold">95%</h1>
-            <h2 className="text-sm uppercase text-gray-200">
+            <h1 className="text-8xl font-bold">95%</h1>
+            <h2 className="text-lg uppercase text-gray-200">
               Accuracy During Chat
             </h2>
           </div>
           <div className="mx-2 my-6 flex flex-col items-center">
-            <h1 className="text-7xl font-bold">7M+</h1>
-            <h2 className="text-sm uppercase text-gray-200">Parameters</h2>
+            <h1 className="text-8xl font-bold">7B+</h1>
+            <h2 className="text-lg uppercase text-gray-200">Parameters</h2>
           </div>
           <div className="mx-2 my-6 flex flex-col items-center">
-            <h1 className="text-7xl font-bold">1.2 sec</h1>
-            <h2 className="text-sm uppercase text-gray-200">
+            <h1 className="text-8xl font-bold">1.2 sec</h1>
+            <h2 className="text-lg uppercase text-gray-200">
               Average Response Time
             </h2>
           </div>
