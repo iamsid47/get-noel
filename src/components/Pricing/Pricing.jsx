@@ -20,8 +20,8 @@ const Pricing = () => {
       <Navbar />
       <div className="bg-white py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8 ">
-          <div className="mx-auto max-w-2xl sm:text-center">
-            <h2 className="text-6xl font-bold tracking-tight text-gray-900">
+          <div className="mx-auto max-w-2xl text-center">
+            <h2 className="text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 ">
               Simple no-tricks pricing
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
@@ -35,11 +35,11 @@ const Pricing = () => {
               <h3 className="text-4xl font-bold tracking-tight text-gray-900">
                 Monthly Pricing
               </h3>
-              <p className="mt-6 text-base leading-7 text-gray-600">
+              <p className="mt-6 pr-3 text-base leading-7 text-gray-600">
                 Our monthly plan gives you 30 days of unlimited access to Noel.
               </p>
               <div className="mt-10 flex items-center gap-x-4">
-                <h4 className="flex-none text-sm font-semibold leading-6 text-blue-600">
+                <h4 className="flex-none text-xl font-semibold leading-6 text-blue-600">
                   What’s included
                 </h4>
                 <div className="h-px flex-auto bg-gray-100" />
@@ -78,7 +78,7 @@ const Pricing = () => {
                       30 Days Money Back Guarantee
                     </span>
                   </div>
-                  <p className="mt-6 flex items-baseline justify-center gap-x-2">
+                  <p className="mt-12 flex items-baseline justify-center gap-x-2 mb-6">
                     <span className="text-5xl font-bold tracking-tight text-gray-900">
                       $49
                     </span>
@@ -86,10 +86,7 @@ const Pricing = () => {
                       USD
                     </span>
                   </p>
-                  <a
-                    href="/get-started"
-                    className="rounded-lg hover:bg-gray-800 px-2.5 py-1.5 text-sm  hover:text-white shadow-sm hover:shadow-xl bg-blue-700  transition duration-200 mt-10 block  text-center  font-semibold text-white"
-                  >
+                  <a href="/get-started" className="buttoncl">
                     Try Free For 30 Days
                   </a>
                   <p className="mt-6 text-xs leading-5 text-gray-600">
@@ -111,8 +108,8 @@ const Pricing = () => {
               </div>
             </div>
           </div>
-          <div className="mx-auto max-w-2xl sm:text-center">
-            <h2 className="text-gray-400 text-xs mt-12">
+          <div className="mx-auto text-center max-w-sm md:max-w-xl">
+            <p className="text-gray-600 text-md mt-12">
               Check out our{" "}
               <a
                 href="/"
@@ -128,7 +125,7 @@ const Pricing = () => {
                 privacy policy
               </a>{" "}
               before purchase.
-            </h2>
+            </p>
           </div>
         </div>
       </div>
