@@ -17,11 +17,9 @@ const Footer = () => {
               downsells, or any fake promises. Just one price that pays for
               everything. Inclusive of taxes.
             </p>
-            <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
-              <a href="/get-started" class="buttoncl">
-                Try Noel For Free
-              </a>
-            </div>
+            <a href="/get-started" class="buttoncl my-4">
+              Try Noel For Free
+            </a>
           </div>
         </div>
       </section>
