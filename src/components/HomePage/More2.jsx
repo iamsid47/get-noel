@@ -5,7 +5,7 @@ const More2 = () => {
   return (
     <section>
       <section class="bg-white">
-        <div class="gap-8 items-center pt-4 my-12 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 lg:px-6 flex flex-col px-10 md:px-6">
+        <div class="gap-8 items-center pt-4 my-8 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 lg:px-6 flex flex-col px-10 md:px-6">
           <div class="mt-4 md:mt-0">
             <div className="mb-5 flex justify-start">
               <div className="-rotate-3 relative rounded-full px-3 py-1 shadow-lg text-sm leading-6 text-blue-500 ring-1 ring-blue-500 hover:ring-blue-800">

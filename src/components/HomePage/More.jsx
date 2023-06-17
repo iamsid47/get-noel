@@ -5,7 +5,7 @@ const More = () => {
   return (
     <section>
       <section class="bg-white">
-        <div class="gap-8 items-center pt-4 my-24 px-10 md:px-6 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 lg:px-6 flex flex-col-reverse ">
+        <div class="gap-8 items-center pt-4 mt-24 mb-8 px-10 md:px-6 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 lg:px-6 flex flex-col-reverse ">
           <img class="w-full" src={Working} alt="working" />
           <div class="mt-4 md:mt-0">
             <div className="mb-4 flex justify-end">
