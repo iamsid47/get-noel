@@ -37,19 +37,19 @@ const Benefits = () => {
   return (
     <section>
       {" "}
-      <div className="bg-white py-12 mb-12">
+      <div className="bg-white py-8 mb-1">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-5xl lg:text-center flex flex-col justify-center items-center">
             <h2 className="text-base font-semibold leading-7 text-blue-700 uppercase">
               Benefits
             </h2>
-            <p className="mt-2 lg:text-6xl text-5xl font-bold tracking-tight text-gray-900">
+            <h1 className=" lg:text-7xl text-6xl font-bold tracking-tight text-gray-900 text-center">
               Create a{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900">
                 seamless support experience.
               </span>
-            </p>
-            <p className="mt-6 text-md text-gray-600 max-w-lg">
+            </h1>
+            <p className="mt-6 text-md text-gray-600 max-w-lg text-center">
               Noel offers a number of benefits that can help us provide better,
               faster, and more consistent support to our customers.
             </p>
