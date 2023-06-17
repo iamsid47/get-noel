@@ -2,10 +2,10 @@ import React from "react";
 
 const NextSteps = () => {
   return (
-    <section class="bg-white ">
-      <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+    <section class="bg-white">
+      <div class="p-8 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
         <div class="max-w-screen-lg text-gray-500 sm:text-lg ">
-          <h2 class="mb-4 text-4xl tracking-tight font-bold text-gray-900 ">
+          <h2 class="mb-4 text-5xl tracking-tight font-bold text-gray-900 ">
             What happens next?
           </h2>
           <p class="mb-4 font-light">

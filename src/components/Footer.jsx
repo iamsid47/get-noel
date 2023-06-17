@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <section>
       <section className="bg-gradient-to-tr from-sky-600 via-blue-700 to-blue-900">
-        <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6 ">
+        <div className="py-8 px-6 mx-auto max-w-screen-xl sm:py-16 lg:px-6 ">
           <div className="max-w-screen-sm">
             <h2 className="mb-4 text-3xl md:text-4xl tracking-tight  text-white">
               Our Commitment Towards You.

@@ -8,153 +8,150 @@ const GetStarted = () => {
     <section>
       <Navbar />
       <section>
-        <div class="min-h-screen p-6 bg-gray-100 flex items-center justify-center">
-          <div class="container max-w-screen-lg mx-auto my-12">
-            <div>
-              <h2 class="font-semibold text-5xl my-1">
+        <div className="min-h-screen p-6 bg-gray-100 flex items-center justify-center">
+          <div className="container max-w-screen-lg mx-auto my-12">
+            <div className="px-5">
+              <h2 className="font-bold text-center lg:text-left text-6xl my-1">
                 Let's get you up and running
               </h2>
-              <p class="text-gray-600 mb-6 mt-1">
+              <p className="text-gray-600 mb-6 mt-4 text-center lg:text-left px-7">
                 To set up Noel on your website, we require some details from
                 you.
               </p>
 
-              <div class="bg-white rounded shadow-lg p-4 px-4 md:p-8 mb-6">
-                <div class="grid gap-4 gap-y-2 text-sm grid-cols-1 lg:grid-cols-3">
-                  <div class="text-gray-600">
-                    <p class="font-medium text-lg">Your Details</p>
-                    <p>Please fill out all the fields.</p>
+              <div className="bg-white rounded shadow-lg p-8 md:p-8 mb-6">
+                <div className="grid gap-4 gap-y-2 text-sm grid-cols-1 lg:grid-cols-3">
+                  <div className="text-gray-600 mb-6 mt-3">
+                    <p className="font-medium text-lg">Your Details</p>
+                    <p>All the fields are required.</p>
                   </div>
 
-                  <div class="lg:col-span-2">
+                  <div className="lg:col-span-2">
                     <form action="">
-                      <div class="grid gap-4 gap-y-2 text-sm grid-cols-1 md:grid-cols-5">
-                        <div class="md:col-span-5">
+                      <div className="grid gap-4 gap-y-2 text-sm grid-cols-1 md:grid-cols-5">
+                        <div className="md:col-span-5">
                           <label for="full_name">Full Name</label>
                           <input
                             required
                             type="text"
                             name="full_name"
                             id="full_name"
-                            class="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
+                            className="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
                             placeholder="Jon Doe"
                           />
                         </div>
-                        <div class="md:col-span-5">
+                        <div className="md:col-span-5">
                           <label for="company">Company</label>
                           <input
                             required
                             type="text"
                             name="company"
                             id="company"
-                            class="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
+                            className="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
                             placeholder="Sample, Inc."
                           />
                         </div>
-                        <div class="md:col-span-5">
+                        <div className="md:col-span-5">
                           <label for="website">Website</label>
                           <input
                             required
                             type="text"
                             name="url"
                             id="url"
-                            class="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
+                            className="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
                             placeholder="www.sample.com"
                           />
                         </div>
 
-                        <div class="md:col-span-5">
+                        <div className="md:col-span-5">
                           <label for="email">Email Address</label>
                           <input
                             required
                             type="text"
                             name="email"
                             id="email"
-                            class="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
+                            className="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
                             placeholder="email@domain.com"
                           />
                         </div>
-                        <div class="md:col-span-5">
+                        <div className="md:col-span-5">
                           <label for="phone">Phone</label>
                           <input
                             required
                             type="tel"
                             name="phone"
                             id="phone"
-                            class="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
+                            className="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
                             placeholder="+1 698 759 2108"
                           />
                         </div>
 
-                        <div class="md:col-span-3">
+                        <div className="md:col-span-3">
                           <label for="address">Business Address / Street</label>
                           <input
                             required
                             type="text"
                             name="address"
                             id="address"
-                            class="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
+                            className="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
                             placeholder=""
                           />
                         </div>
 
-                        <div class="md:col-span-2">
+                        <div className="md:col-span-2">
                           <label for="city">City</label>
                           <input
                             required
                             type="text"
                             name="city"
                             id="city"
-                            class="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
+                            className="h-10 border mt-1 rounded px-4 w-full bg-gray-50"
                             placeholder=""
                           />
                         </div>
 
-                        <div class="md:col-span-2">
+                        <div className="md:col-span-2">
                           <label for="country">Country / Region</label>
-                          <div class="h-10 bg-gray-50 flex border border-gray-200 rounded items-center mt-1">
+                          <div className="h-10 bg-gray-50 flex border border-gray-200 rounded items-center mt-1">
                             <input
                               required
                               name="country"
                               id="country"
                               placeholder="Country"
-                              class="px-4 appearance-none outline-none text-gray-800 w-full bg-transparent"
+                              className="px-4 appearance-none outline-none text-gray-800 w-full bg-transparent"
                             />
                           </div>
                         </div>
 
-                        <div class="md:col-span-2">
+                        <div className="md:col-span-2">
                           <label for="state">State / Province</label>
-                          <div class="h-10 bg-gray-50 flex border border-gray-200 rounded items-center mt-1">
+                          <div className="h-10 bg-gray-50 flex border border-gray-200 rounded items-center mt-1">
                             <input
                               required
                               name="state"
                               id="state"
                               placeholder="State"
-                              class="px-4 appearance-none outline-none text-gray-800 w-full bg-transparent"
+                              className="px-4 appearance-none outline-none text-gray-800 w-full bg-transparent"
                             />
                           </div>
                         </div>
 
-                        <div class="md:col-span-1">
+                        <div className="md:col-span-1">
                           <label for="zipcode">Zipcode</label>
                           <input
                             required
                             type="text"
                             name="zipcode"
                             id="zipcode"
-                            class="transition-all flex items-center h-10 border mt-1 rounded px-4 w-full bg-gray-50"
+                            className="transition-all flex items-center h-10 border mt-1 rounded px-4 w-full bg-gray-50"
                             placeholder=""
                           />
                         </div>
 
-                        <div class="md:col-span-5 text-right my-3">
-                          <div class="inline-flex items-end">
-                            <button
-                              type="submit"
-                              class="inline-flex items-center justify-center px-3 text-sm py-1  text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 transition duration-300"
-                            >
-                              Submit
+                        <div className="md:col-span-5 text-right my-3">
+                          <div className="inline-flex items-end">
+                            <button type="submit" className="buttoncl">
+                              Sign Up
                             </button>
                           </div>
                         </div>
