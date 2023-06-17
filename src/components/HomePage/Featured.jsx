@@ -4,15 +4,15 @@ import chatImg from "../assets/chat-noel.png";
 const Featured = () => {
   return (
     <section>
-      <div className="my-20 mx-16 px-12 md:flex justify-center space-x-5 items-center">
+      <div className="my-20 mx-6 lg:mx-16 px-12 md:flex justify-center space-x-5 items-center">
         <div className="">
-          <div className="mb-4 flex justify-start">
-            <div className="-rotate-3 relative rounded-full px-3 py-1 shadow-lg text-sm leading-6 text-blue-500 ring-1 ring-blue-500 hover:ring-blue-800">
+          <div className="mb-4 inline-flex justify-start">
+            <div className="md:-rotate-3 relative rounded-full px-3 py-1 shadow-lg text-sm leading-6 text-blue-500 ring-1 ring-blue-500 hover:ring-blue-800">
               Fact: Noel Never Sleeps &#128526;
             </div>
           </div>
           <div>
-            <h1 className="max-w-3xl text-7xl font-bold tracking-tight">
+            <h1 className="max-w-3xl text-5xl lg:text-7xl font-bold tracking-tight">
               A support rep that your customers can rely on!
             </h1>
             <p className="py-2 mt-3 mb-6 max-w-xl">
@@ -23,16 +23,13 @@ const Featured = () => {
               waiting on hold for customer service reps – Noel is available 24/7
               to provide them with the answers they need.
             </p>
-            <a
-              href="/get-started"
-              className="rounded-md hover:bg-gray-800 px-3.5 py-2.5 text-sm  hover:text-white shadow-sm hover:shadow-xl bg-blue-700 text-white transition duration-200 "
-            >
-              Get started
+            <a href="/get-started" className="buttoncl">
+              Get Started
             </a>
           </div>
         </div>
-        <div className="bg-gradient-to-r from-indigo-300 to-purple-400 rounded-3xl shadow-2xl">
-          <img src={chatImg} alt="" className="max-w-xl p-4" />
+        <div className="my-12 md:my-0 bg-gradient-to-r from-indigo-300 to-purple-400 rounded-3xl shadow-2xl">
+          <img src={chatImg} alt="" className="max-w-base lg:max-w-xl p-4" />
         </div>
       </div>
     </section>

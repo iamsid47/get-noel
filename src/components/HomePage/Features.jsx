@@ -3,16 +3,18 @@ import React from "react";
 const Features = () => {
   return (
     <section className="my-12" id="features">
-      <h1 className="text-7xl text-center tracking-tight my-4 font-semibold">
+      <h1 className="text-5xl lg:text-7xl text-center tracking-tight my-4 font-bold lg:font-semibold px-5">
         Save{" "}
-        <span className="font-bold text-8xl text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900">
+        <span className="font-bold text-6xl lg:text-8xl text-transparent bg-clip-text bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900">
           97%
         </span>{" "}
         On Support Costs{" "}
-        <span className="text-sm font-bold tracking-normal">(Literally)</span>
+        <span className="text-base lg:text-sm font-bold tracking-normal">
+          (Literally)
+        </span>
       </h1>
 
-      <div className="flex justify-center items-center space-x-12">
+      <div className="flex flex-col md:flex-row justify-center items-center space-y-8 md:space-y-0 md:space-x-4 lg::space-x-12">
         <div class="flex bg-red-600 shadow-lg rounded-xl text-white mx-4 ">
           <div class=" p-4">
             <table class="w-full">
@@ -74,8 +76,8 @@ const Features = () => {
         </div>
         <div class="flex flex-col items-center bg-gradient-to-tr from-blue-700 via-blue-800 to-blue-900 shadow-lg rounded-xl text-white mx-4 ">
           <div class="px-8 py-28 flex flex-col items-center">
-            <h1 className="text-5xl  my-2">Cost of Noel</h1>
-            <h2 className="text-6xl">
+            <h1 className="text-5xl my-2">Cost of Noel</h1>
+            <h2 className="text-6xl text-center">
               <span className="text-7xl font-bold tracking-tight">$49</span> per
               month
             </h2>
