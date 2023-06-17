@@ -13,7 +13,7 @@ const More2 = () => {
               </div>
             </div>
             <div>
-              <h2 class="mb-4 text-6xl tracking-tight font-bold text-gray-900 ">
+              <h2 class="mb-4 text-5xl tracking-tight font-bold text-gray-900 ">
                 99.90% Uptime
               </h2>
               <p class="mb-8 lg:mb-6 font-light text-gray-500 md:text-lg ">

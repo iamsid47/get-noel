@@ -3,7 +3,7 @@ import Wireframe from "../assets/wireframe-bg.png";
 
 const More3 = () => {
   return (
-    <section>
+    <section className="lg:mb-12">
       <section class="bg-white">
         <div class="gap-8 items-center pt-4 my-8 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 lg:px-6 flex flex-col-reverse px-10 md:px-6">
           <img class="w-full" src={Wireframe} alt="dashboard" />
@@ -14,7 +14,7 @@ const More3 = () => {
               </div>
             </div>
             <div>
-              <h2 class="mb-4 text-6xl tracking-tight font-bold text-gray-900 ">
+              <h2 class="mb-4 text-5xl tracking-tight font-bold text-gray-900 ">
                 Track Customer Engagement
               </h2>
               <p class="mb-8 lg:mb-6 font-light text-gray-500 md:text-lg ">
