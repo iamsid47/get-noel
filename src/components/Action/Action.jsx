@@ -10,7 +10,7 @@ function ChatInterface() {
     e.preventDefault();
 
     // Make a POST request to the Flask app
-    const response = await fetch("http://trynoel.kulthe.com:4500/chat", {
+    const response = await fetch("http://34.204.127.0:5010/chat", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -57,12 +57,12 @@ function ChatInterface() {
         </div>
         <div className="m-6 rounded-xl space-y-2 flex flex-col p-4 bg-gray-200 justify-around  h-[640px]">
           <div className="bg-white px-3 py-1.5 rounded-xl text-center">
-            <h1 className="text-sm text-gray-600">
+            <h1 className="text-lg font-semibold text-gray-600">
               I'm Noel. Currently serving on behalf of Kulthe Media. At your
               service!
             </h1>
           </div>
-          <div className="overflow-y-scroll overflow-x-hidden h-[480px]">
+          <div className="overflow-y-scroll overflow-x-hidden h-[480px] font-bold text-xl">
             <div className="space-y-2 max-w-xl grid grid-cols-1 justify-center p-4 my-3">
               {messages.map((message, index) => (
                 <div
