@@ -33,13 +33,13 @@ body {
 }
 
 .buttoncl {
-  @apply bg-gray-950 px-6 rounded py-3 text-base shadow-sm hover:shadow-xl hover:bg-gray-800/90 text-white transition duration-300;
+  @apply bg-gray-950 px-6 capitalize rounded py-3 text-base shadow-sm hover:shadow-xl hover:bg-gray-800/90 text-white transition duration-300;
 }
 
 .buttoncls {
-  @apply bg-blue-800 px-6 rounded py-3 text-base shadow-sm hover:shadow-xl hover:bg-blue-600 text-white transition duration-300;
+  @apply bg-blue-800 px-6 rounded capitalize py-3 text-base shadow-sm hover:shadow-xl hover:bg-blue-600 text-white transition duration-300;
 }
 
 .announcecl {
-  @apply text-left hover:bg-gray-950 text-white px-5 py-3 rounded-full bg-gray-800/60 transition duration-300;
+  @apply text-left hover:bg-gray-950 text-white capitalize px-5 py-3 rounded-full bg-gray-800/60 transition duration-300;
 }

@@ -9,7 +9,6 @@ function ChatInterface() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Make a POST request to the Flask app
     const response = await fetch("http://34.204.127.0:5010/chat", {
       method: "POST",
       headers: {
@@ -21,7 +20,6 @@ function ChatInterface() {
     const responseData = await response.json();
     const { response: aiResponse } = responseData;
 
-    // Update the messages state with the user message
     setMessages((prevMessages) => [
       ...prevMessages,
       { content: userInput, sender: "User" },
@@ -47,23 +45,27 @@ function ChatInterface() {
   return (
     <section>
       <Navbar />
-      <section className="grid grid-cols-2 min-h-screen">
-        <div className="bg-gray-900 flex items-center justify-end">
+      <section className="flex flex-col lg:grid lg:grid-cols-2">
+        <div className="bg-gray-900 flex items-center justify-center lg:justify-end">
           <div>
-            <h1 className="text-9xl text-white text-right p-6 tracking-tight">
+            <h1 className="text-4xl font-semibold lg:text-9xl text-white text-right p-3 lg:p-6 tracking-tight lg:hidden">
               That's Noel In Action
+            </h1>
+            <h1 className="text-4xl font-semibold md:text-5xl lg:text-9xl text-white text-right p-3 lg:p-6 tracking-tight hidden lg:inline-block">
+              That's Noel <br />
+              In Action <span className="hidden lg:inline-block">&rarr;</span>
             </h1>
           </div>
         </div>
         <div className="m-6 rounded-xl space-y-2 flex flex-col p-4 bg-gray-200 justify-around  h-[640px]">
           <div className="bg-white px-3 py-1.5 rounded-xl text-center">
-            <h1 className="text-lg font-semibold text-gray-600">
+            <h1 className="text-md lg:text-xl font-semibold text-gray-600">
               I'm Noel. Currently serving on behalf of Kulthe Media. At your
               service!
             </h1>
           </div>
-          <div className="overflow-y-scroll overflow-x-hidden h-[480px] font-bold text-xl">
-            <div className="space-y-2 max-w-xl grid grid-cols-1 justify-center p-4 my-3">
+          <div className="overflow-y-scroll overflow-x-hidden h-[480px] text-lg">
+            <div className="space-y-2  grid grid-cols-1 justify-center p-4 my-3">
               {messages.map((message, index) => (
                 <div
                   key={index}
@@ -71,7 +73,7 @@ function ChatInterface() {
                     message.sender === "User" ? "text-right" : "text-left"
                   }`}
                 >
-                  <h1
+                  <p
                     className={`px-3 py-1.5 rounded my-1 ${
                       message.sender === "User"
                         ? "bg-blue-700 text-white"
@@ -79,8 +81,8 @@ function ChatInterface() {
                     }`}
                   >
                     {message.sender}
-                  </h1>
-                  <h1
+                  </p>
+                  <p
                     className={` rounded-xl py-1.5 px-3 my-1 ${
                       message.sender === "User"
                         ? "text-right bg-blue-700 text-white"
@@ -88,7 +90,7 @@ function ChatInterface() {
                     }`}
                   >
                     {message.content}
-                  </h1>
+                  </p>
                 </div>
               ))}
             </div>
