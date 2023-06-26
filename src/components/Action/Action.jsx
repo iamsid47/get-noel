@@ -25,17 +25,14 @@ function ChatInterface() {
       { content: userInput, sender: "User" },
     ]);
 
-    // Clear the user input
     setUserInput("");
 
-    // Add a small delay before adding the AI response
     setTimeout(() => {
-      // Update the messages state with the AI response
       setMessages((prevMessages) => [
         ...prevMessages,
         { content: aiResponse, sender: "Noel" },
       ]);
-    }, 1000); // Delay duration in milliseconds
+    }, 1000);
   };
 
   const handleInputChange = (e) => {

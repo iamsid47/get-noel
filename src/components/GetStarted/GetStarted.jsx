@@ -11,10 +11,10 @@ const GetStarted = () => {
         <div className="min-h-screen p-6 bg-gray-100 flex items-center justify-center">
           <div className="container max-w-screen-lg mx-auto my-12">
             <div className="px-5">
-              <h2 className="font-bold text-center lg:text-left text-6xl my-1">
+              <h2 className="font-bold text-center lg:text-left text-4xl lg:text-6xl my-1">
                 Let's get you up and running
               </h2>
-              <p className="text-gray-600 mb-6 mt-4 text-center lg:text-left px-7">
+              <p className="text-gray-600 mb-6 mt-4 text-center lg:text-left px-7 md:px-0">
                 To set up Noel on your website, we require some details from
                 you.
               </p>
